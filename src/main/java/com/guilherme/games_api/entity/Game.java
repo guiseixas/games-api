@@ -23,7 +23,9 @@ public class Game {
 
     private String genre;
 
-    private String platform;
+    private String platforms;
+
+    private Double score;
 
     @Column(name = "img_url")
     private String imgUrl;
@@ -31,6 +33,6 @@ public class Game {
     @Column(name = "short_description")
     private String shortDescription;
 
-    @Column(name = "long_description")
+    @Column(name = "long_description", columnDefinition = "TEXT")
     private String longDescription;
 }
