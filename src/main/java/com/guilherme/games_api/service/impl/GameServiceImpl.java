@@ -1,7 +1,6 @@
 package com.guilherme.games_api.service.impl;
 
 import com.guilherme.games_api.dto.GameMinDTO;
-import com.guilherme.games_api.entity.Game;
 import com.guilherme.games_api.repository.GameRepository;
 import com.guilherme.games_api.service.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
